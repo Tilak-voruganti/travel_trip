@@ -1,0 +1,96 @@
+.book-trip-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+}
+
+.book-trip-content {
+  flex-grow: 1;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.booking-wizard {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.steps-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.step-number {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #cbd5e1;
+  color: #334155;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.active-step-num {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.step-text {
+  color: #64748b;
+  font-weight: 500;
+}
+
+.active-step-text {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.completed-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+.guest-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.back-btn {
+  background-color: #e2e8f0;
+  color: #334155;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
